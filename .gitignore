@@ -1,0 +1,9 @@
+.DS_Store
+.claude/
+node_modules/
+
+# Source recordings: never publish these
+*.mov
+
+# Independent UyghurCommunity checkouts and local release backups
+/community-workspace/

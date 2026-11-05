@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ug" dir="rtl" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101110">
+  <meta name="description" content="دوپپا — ئۇيغۇر دوپپا كەشتىسى ۋە ئەتلەس رەڭلىرىدىن ئىلھام ئالغان جانلىق رەقەملىك تەجرىبە. ئۆزىڭىز ئايلاندۇرۇڭ، رەڭ تاللاڭ ۋە تور بېتىڭىزنى جانلاندۇرۇڭ.">
+  <title>دوپپا — مىراس بىلەن ھەرىكەت ئۇچراشقاندا</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="preload" href="../Uyghur%20tesewwur.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="page.css">
+  <script src="../swarm.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-swarm-skip>مەزمۇنغا ئاتلاش</a>
+  <header class="nav" data-swarm-skip>
+    <div class="nav-inner wrap">
+      <a class="logo" href="#top" aria-label="دوپپا — باش بەت"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.35" aria-hidden="true"><path d="M20 19C9 15 12 6 20 7c8-1 11 8 0 12Zm1 1c4-11 13-8 12 0 1 8-8 11-12 0Zm-1 1c11 4 8 13 0 12-8 1-11-8 0-12Zm-1-1C15 31 6 28 7 20c-1-8 8-11 12 0Z"/><path d="m20 16 4 4-4 4-4-4Z"/></svg></span><span>دوپپا<span class="logo-sub" lang="en" dir="ltr">DOPPA</span></span></a>
+      <nav class="nav-links" id="navigation" aria-label="ئاساسىي تىزىملىك">
+        <a href="#features">ئالاھىدىلىكلەر</a><a href="#playground">سىناق مەيدانى</a><a href="#install">قاچىلاش</a><a href="#questions">سوئاللار</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="يورۇق كۆرۈنۈشكە ئالماشتۇرۇش" title="كۆرۈنۈشنى ئالماشتۇرۇش"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
+        <a class="github-link" href="https://github.com/UyghurCommunity" target="_blank" rel="noreferrer"><span lang="en">GitHub</span><span aria-hidden="true">↗</span></a>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="تىزىملىكنى ئېچىش" aria-expanded="false" aria-controls="navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span>مىراستىن ئىلھام. كەلگۈسىگە ھەرىكەت.</p>
+        <h1>ھەر بىر نەقىشتە،<br><span class="accent">جانلىق بىر ھېكايە.</span></h1>
+        <p class="lede">ئۇيغۇر كەشتىلىرىدىن ئىلھام ئالغان جانلىق تەجرىبە. كۆرسەتكۈچلەر تور بېتىڭىزنى قۇرىدۇ، نەپىس يىپلار رەقەملىك دوپپىنى بېزەيدۇ. ئەنئەنە بىلەن تېخنىكا مۇشۇ يەردە ئۇچرىشىدۇ.</p>
+        <div class="cta-row"><button class="btn btn-primary" type="button" id="hero-replay" data-swarm-skip><span>ھەرىكەتنى كۆرۈڭ</span><span aria-hidden="true">↖</span></button><a class="btn btn-outline" href="#playground">ئۆزىڭىز سىناپ بېقىڭ <span aria-hidden="true">←</span></a></div>
+        <p class="hero-note"><span class="tiny-check" aria-hidden="true">✓</span>ئوچۇق مەنبەلىك <span class="note-separator">/</span>قوشۇمچە كۈتۈپخانا تەلەپ قىلمايدۇ</p>
+      </div>
+      <div class="hero-visual heritage-card" data-palette="badam" data-swarm-skip>
+        <div class="heritage-heading"><span class="heritage-edition"><bdi>01</bdi> / رەقەملىك مىراس</span><span class="heritage-live"><i></i>كەشتە × كود</span></div>
+        <div class="heritage-stage">
+          <div class="heritage-halo" aria-hidden="true"></div>
+          <span class="heritage-corner corner-tr" aria-hidden="true"></span><span class="heritage-corner corner-bl" aria-hidden="true"></span>
+          <canvas id="heritage-canvas" width="600" height="440" tabindex="0" role="img" aria-label="بادام كەشتىسىدىن ئىلھاملانغان، تۆت بۆلەكلىك رەقەملىك دوپپا" aria-describedby="heritage-help">دوپپا كەشتىسىدىن ئىلھاملانغان رەقەملىك نەقىش.</canvas>
+          <div class="heritage-object-label"><span>ئۇيغۇر دوپپىسىدىن ئىلھام</span><span class="heritage-label-line" aria-hidden="true"></span></div>
+        </div>
+        <div class="heritage-caption"><div><h2 id="heritage-title">بادام كەشتىسى</h2><p id="heritage-description">قېنىق مەخمەل. نەپىس يىپلار.</p></div><div class="heritage-object-actions"><button id="heritage-reset" type="button" aria-label="دوپپا كۆرۈنۈشىنى ئەسلىگە قايتۇرۇش" title="ئەسلىگە قايتۇرۇش">↺</button><button id="heritage-pause" type="button" aria-pressed="false" aria-label="دوپپا ھەرىكىتىنى توختىتىش"><span aria-hidden="true">Ⅱ</span></button></div></div>
+        <div class="heritage-toolbar"><div class="heritage-palettes" role="group" aria-label="دوپپىنىڭ رەڭ ئۇسلۇبى"><button type="button" data-heritage-palette="badam" aria-pressed="true"><i aria-hidden="true"></i>كەشتە</button><button type="button" data-heritage-palette="atlas" aria-pressed="false"><i aria-hidden="true"></i>ئەتلەس</button><button type="button" data-heritage-palette="golden" aria-pressed="false"><i aria-hidden="true"></i>زەر</button></div><p class="heritage-drag-hint" aria-hidden="true">↔ يۆتكەپ ئايلاندۇرۇڭ</p></div>
+        <p class="sr-only" id="heritage-help">سۆرەپ ئايلاندۇرۇڭ. كۇنۇپكا تاختىسىدىكى يۆنىلىش كۇنۇپكىلىرى بىلەن كۆرۈنۈشنى ئۆزگەرتىڭ، بوشلۇق كۇنۇپكىسى بىلەن توختىتىڭ ياكى داۋاملاشتۇرۇڭ، Home بىلەن ئەسلىگە قايتۇرۇڭ.</p>
+      </div>
+      <dl class="stats"><div><dt>قوشۇمچە كۈتۈپخانا</dt><dd>0</dd></div><div><dt>قۇر كود بىلەن باشلاڭ</dt><dd>1</dd></div><div><dt>خاسلاشتۇرغىلى بولىدۇ</dt><dd>100<span>%</span></dd></div><div><dt>ھەقسىز ۋە ئوچۇق مەنبەلىك</dt><dd lang="en">MIT</dd></div></dl>
+    </section>
+
+    <section class="section wrap" id="features">
+      <div class="section-heading"><div><p class="kicker"><span dir="ltr">01</span> / ئالاھىدىلىكلەر</p><h2>ئاددىي كود.<br><span class="dim">جانلىق نەتىجە.</span></h2></div><p class="section-intro">تەييار تور بېتىڭىزنى ئۆزگەرتمەي تۇرۇپ،<br>ئۇنىڭ ياسىلىش جەريانىنى نامايان قىلىڭ.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-top"><span class="feature-icon" aria-hidden="true">⌕</span><span class="card-num">01</span></div><h3>بېتىڭىزنى تونۇيدۇ</h3><p>تېكىست، رەسىم، قۇتا ۋە سىزىقلارنى ئاپتوماتىك تېپىپ، ھەر بىرىگە ماس ھەرىكەتنى تاللايدۇ.</p><span class="card-foot">ئاپتوماتىك تەھلىل <span aria-hidden="true">↙</span></span></article>
+        <article class="card"><div class="card-top"><span class="feature-icon" aria-hidden="true">↖</span><span class="card-num">02</span></div><h3>بىرلىكتە قۇرىدۇ</h3><p>كۆرسەتكۈچلەر ئىش تەقسىملەپ، تېكىست يازىدۇ، رامكا سىزىدۇ ۋە مەزمۇنلارنى بۆلەك بويىچە ئېچىپ بېرىدۇ.</p><span class="card-foot">ماسلاشقان ھەرىكەت <span aria-hidden="true">↙</span></span></article>
+        <article class="card"><div class="card-top"><span class="feature-icon" aria-hidden="true">✧</span><span class="card-num">03</span></div><h3>ئىز قالدۇرمايدۇ</h3><p>ھەرىكەت تاماملانغاندا ئۈستۈنكى قەۋەت يوقىلىدۇ. تور بېتىڭىز ئەسلى ھالىتىدە نورمال خىزمەت قىلىدۇ.</p><span class="card-foot">ئەسلى مەزمۇن ساقلىنىدۇ <span aria-hidden="true">↙</span></span></article>
+      </div>
+      <div class="feature-strip"><span><i aria-hidden="true">✓</i>ئۇيغۇرچە ۋە ئوڭدىن سولغا</span><span><i aria-hidden="true">✓</i>يانفونغا ماسلاشقان</span><span><i aria-hidden="true">✓</i>ھەرىكەتنى ئازايتىشنى قوللايدۇ</span><span><i aria-hidden="true">✓</i>خالىغان ۋاقىتتا ئاتلاڭ</span></div>
+    </section>
+
+    <section class="lab-section" id="playground" data-swarm-skip>
+      <div class="wrap">
+        <div class="section-heading"><div><p class="kicker"><span dir="ltr">02</span> / سىناق مەيدانى</p><h2>ھەرىكەت، <span class="accent">سىزنىڭ تاللىشىڭىز.</span></h2></div><p class="section-intro">تەڭشەڭ. سىناڭ. ياقتۇرغان كودىڭىزنى ئېلىڭ.<br>تەڭشەكلىرىڭىز بۇ توركۆرگۈچتە ساقلىنىدۇ.</p></div>
+        <div class="lab-grid">
+          <form class="control-panel" id="settings-form">
+            <div class="panel-heading"><h3>ھەرىكەت تەڭشەكلىرى</h3><button class="text-button" id="reset-settings" type="button">ئەسلىگە قايتۇرۇش ↺</button></div>
+            <div class="field"><span class="field-label" id="preset-label">تەييار ئۇسلۇبلار</span><div class="presets" role="group" aria-labelledby="preset-label"><button type="button" data-preset="calm" aria-pressed="false">ئاستا</button><button type="button" data-preset="balanced" aria-pressed="true">تەڭپۇڭ</button><button type="button" data-preset="energetic" aria-pressed="false">چاققان</button></div></div>
+            <div class="field"><label class="field-row" for="agent-count"><span>كۆرسەتكۈچ سانى</span><output for="agent-count" id="agent-output" dir="ltr">24</output></label><input id="agent-count" name="agents" type="range" min="4" max="48" step="1" value="24" dir="ltr"><div class="range-labels" dir="ltr"><span>4</span><span>48</span></div><p class="field-hint">يانفوندا ئەڭ كۆپ بولغاندا 10 كۆرسەتكۈچ ئىشلىتىلىدۇ.</p></div>
+            <div class="field"><label class="field-row" for="speed"><span>ھەرىكەت سۈرئىتى</span><span class="field-hint">شۇئان قوللىنىلىدۇ</span></label><select id="speed" name="speed"><option value="0.5">ئاستا — 0.5×</option><option value="1">نورمال — 1×</option><option value="1.5" selected>راۋان — 1.5×</option><option value="2">تېز — 2×</option><option value="4">ناھايىتى تېز — 4×</option></select></div>
+            <label class="toggle-row" for="tour"><span><strong>ئاپتوماتىك ئايلىنىش</strong><small>بەتنى قۇرۇش جەريانىدا ئۆزلۈكىدىن سىيرىيدۇ</small></span><input id="tour" name="tour" type="checkbox" role="switch" checked><span class="switch" aria-hidden="true"></span></label>
+            <label class="toggle-row" for="once"><span><strong>پەقەت بىر قېتىم كۆرسىتىش</strong><small>كېيىنكى زىيارەتتە مەزمۇن بىۋاسىتە كۆرۈنىدۇ</small></span><input id="once" name="once" type="checkbox" role="switch"><span class="switch" aria-hidden="true"></span></label>
+            <button class="btn btn-primary run-button" id="run-animation" type="submit"><span>ھەرىكەتنى باشلاش</span><span aria-hidden="true">↖</span></button>
+            <p class="reduced-note" id="reduced-note" hidden>سىستېمىڭىزدا ھەرىكەتنى ئازايتىش ئېچىلغان. مەزمۇنلار بىۋاسىتە كۆرسىتىلىدۇ.</p>
+          </form>
+          <div class="lab-preview">
+            <div class="monitor panel"><div class="panel-heading"><h3>جەريان كۆزنىكى</h3><span class="live-badge"><i></i>نەق مەيدان</span></div><div class="monitor-status"><span class="monitor-symbol" aria-hidden="true">↖</span><div><p class="status-label" id="run-status" role="status" aria-live="polite">سىناشقا تەييار</p><p class="monitor-hint" id="run-hint">تەڭشەكلىرىڭىزنى تاللاپ، ھەرىكەتنى باشلاڭ.</p></div></div><div class="progress" id="build-progress" role="progressbar" aria-label="قۇرۇش جەريانى" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="progress-fill"></span></div><div class="monitor-meta"><span id="layer-count">0 / 0 قەۋەت</span><span id="progress-percent" dir="ltr">0%</span></div><div class="monitor-actions"><button class="btn btn-outline" id="pause-animation" type="button" disabled>ۋاقىتلىق توختىتىش <span aria-hidden="true">Ⅱ</span></button><button class="text-button" id="skip-animation" type="button" disabled>تاماملاش ←</button></div></div>
+            <div class="code-panel"><div class="code-heading"><div class="code-tabs" role="tablist" aria-label="كود شەكلى"><button id="html-tab" role="tab" type="button" aria-selected="true" aria-controls="code-preview" data-code="html" lang="en">HTML</button><button id="js-tab" role="tab" type="button" aria-selected="false" aria-controls="code-preview" data-code="js" tabindex="-1" lang="en">JavaScript</button></div><span class="code-dots" aria-hidden="true">● ● ●</span></div><pre id="code-preview" role="tabpanel" aria-labelledby="html-tab" tabindex="0" dir="ltr"><code id="generated-code"></code></pre><div class="code-footer"><span id="code-instruction">بېتىڭىزگە قوشۇشقا تەييار</span><div><button id="copy-code" class="text-button" type="button">كۆچۈرۈش ⧉</button><button id="download-code" class="text-button" type="button">چۈشۈرۈش ↓</button></div></div><p class="copy-status" id="copy-status" role="status" aria-live="polite"></p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap install-section" id="install">
+      <div class="install-copy"><p class="kicker"><span dir="ltr">03</span> / باشلاش</p><h2>بىر نەچچە قەدەم.<br><span class="dim">پۈتۈنلەي يېڭى تەسىرات.</span></h2><p class="section-intro">مۇرەككەپ تەڭشەك يوق. يېڭى رامكا يوق.<br>ئۆزىڭىز ئىشلىتىۋاتقان تور بەت بىلەنلا باشلاڭ.</p><a class="btn btn-outline" href="../swarm.js" download="swarm.js">ھۆججەتنى چۈشۈرۈش <span aria-hidden="true">↓</span></a><a class="docs-link" href="https://github.com/UyghurCommunity/doppa#readme" target="_blank" rel="noreferrer">تېخنىكىلىق قوللانما ↗</a></div>
+      <ol class="steps"><li><span class="step-num">01</span><div><h3>ھۆججەتنى ئېلىڭ</h3><p><bdi lang="en">swarm.js</bdi> ھۆججىتىنى تۈرىڭىزنىڭ مۇندەرىجىسىگە قويۇڭ.</p></div></li><li><span class="step-num">02</span><div><h3>كودنى قوشۇڭ</h3><p>سىناق مەيدانىدىكى كودنى كۆچۈرۈپ، بېتىڭىزنىڭ <bdi lang="en">&lt;head&gt;</bdi> قىسمىغا قوشۇڭ.</p></div></li><li><span class="step-num">03</span><div><h3>بېتىڭىزنى يېڭىلاڭ</h3><p>كۆرسەتكۈچلەر مەزمۇننى تونۇپ، قۇرۇشنى باشلايدۇ. ھەممىسى شۇنداق ئاددىي.</p></div></li></ol>
+    </section>
+
+    <section class="section wrap" id="options"><div class="section-heading"><div><p class="kicker"><span dir="ltr">04</span> / تېخىمۇ كۆپ كونترول</p><h2>ھەر بىر ئىنچىكە نۇقتا، <span class="dim">قولىڭىزدا.</span></h2></div></div><div class="options-grid"><div class="option"><code>data-auto</code><h3>ئاپتوماتىك باشلاش</h3><p>بەت ئېچىلغاندا ھەرىكەتنى بىۋاسىتە قوزغىتىڭ.</p></div><div class="option"><code>data-replay</code><h3>قايتا كۆرۈش</h3><p>ھەرىكەتتىن كېيىن قايتا قويۇش كۇنۇپكىسىنى ساقلاڭ.</p></div><div class="option"><code>data-swarm-skip</code><h3>بۆلەكنى چىقىرىۋېتىش</h3><p>تىزىملىك ياكى كونتروللارنى باشتىنلا كۆرۈنەرلىك قىلىڭ.</p></div><div class="option"><code>data-swarm="media"</code><h3>بىر پۈتۈن ئېچىش</h3><p>بىر بۆلەكنى رەسىمگە ئوخشاش بىرلا قېتىمدا ئېچىڭ.</p></div></div></section>
+
+    <section class="section wrap faq-section" id="questions"><div><p class="kicker"><span dir="ltr">05</span> / سوئاللار</p><h2>بىلىۋالسىڭىز<br><span class="dim">پايدىلىق.</span></h2></div><div class="faq-list"><details open><summary>مەۋجۇت تور بېتىمنى ئۆزگەرتىشىم كېرەكمۇ؟<span aria-hidden="true">+</span></summary><p>ياق. بۇ قورال تەييار مەزمۇننى تونۇپ ھەرىكەت قوشىدۇ. ھۆججەتنى ۋە بىر قۇر كودنى قوشسىڭىزلا بولىدۇ. ئۇنى ئېلىۋەتسىڭىز بەت ئەسلى ھالىتىگە قايتىدۇ.</p></details><details><summary>ئۇيغۇرچە مەزمۇننى قوللامدۇ؟<span aria-hidden="true">+</span></summary><p>ھەئە. بۇ نۇسخا ئۇيغۇرچە كونتروللارنى ۋە ئوڭدىن سولغا يېزىشنى قوللايدۇ. بەتنىڭ تىلىنى <bdi lang="en">lang="ug"</bdi> قىلىپ بەلگىلەڭ. بۇ بېتىمىزدە تەسەۋۋۇر خەت نۇسخىسى ئىشلىتىلدى.</p></details><details><summary>زىيارەتچىلەر ھەرىكەتنى توختىتالامدۇ؟<span aria-hidden="true">+</span></summary><p>ھەئە. ۋاقىتلىق توختىتىش، داۋاملاشتۇرۇش، سۈرئەتنى ئۆزگەرتىش ۋە بىۋاسىتە تاماملاش كونتروللىرى بار. قولدا سىيرىغاندا ئاپتوماتىك ئايلىنىش سىزگە يول بېرىدۇ.</p></details><details><summary>ھەرىكەتنى ئازايتىش تەڭشىكىچۇ؟<span aria-hidden="true">+</span></summary><p>سىستېمىدا ھەرىكەتنى ئازايتىش ئېچىلغان بولسا، مەزمۇنلار جانلاندۇرۇلماي بىۋاسىتە كۆرسىتىلىدۇ. تېكىستلەر ئېكران ئوقۇغۇچ ۋە ئىزدەش ماتورلىرى ئۈچۈن بەتتە ساقلىنىدۇ.</p></details><details><summary>بۇ قورالنى ھەقسىز ئىشلىتەمدىم؟<span aria-hidden="true">+</span></summary><p>ھەئە. قورال MIT ئىجازەتنامىسىدە ئوچۇق مەنبەلىك تارقىتىلغان. شەخسىي ۋە سودا تۈرلىرىڭىزدە ئىشلىتەلەيسىز. ئەسلى ئىجازەتنامىنى ساقلاڭ.</p></details></div></section>
+
+    <section class="closing wrap"><div class="closing-inner"><p class="eyebrow"><span class="status-dot"></span>ئىجاد قىلىشنى باشلاڭ</p><h2>كېيىنكى بېتىڭىز،<br><span class="accent">تېخىمۇ جانلىق بولسۇن.</span></h2><p>ئۆزىڭىزگە ماسلاشتۇرۇڭ. ئۆز تۈرىڭىزدە ئىشلىتىڭ.</p><a class="btn btn-primary" href="#playground">سىناق مەيدانىغا قايتىش <span aria-hidden="true">↑</span></a><span class="closing-spark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.35" aria-hidden="true"><path d="M20 19C9 15 12 6 20 7c8-1 11 8 0 12Zm1 1c4-11 13-8 12 0 1 8-8 11-12 0Zm-1 1c11 4 8 13 0 12-8 1-11-8 0-12Zm-1-1C15 31 6 28 7 20c-1-8 8-11 12 0Z"/><path d="m20 16 4 4-4 4-4-4Z"/></svg></span></div></section>
+  </main>
+  <footer class="footer wrap"><a class="logo" href="#top"><span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.35" aria-hidden="true"><path d="M20 19C9 15 12 6 20 7c8-1 11 8 0 12Zm1 1c4-11 13-8 12 0 1 8-8 11-12 0Zm-1 1c11 4 8 13 0 12-8 1-11-8 0-12Zm-1-1C15 31 6 28 7 20c-1-8 8-11 12 0Z"/><path d="m20 16 4 4-4 4-4-4Z"/></svg></span><span>دوپپا</span></a><p>مىراستىن ئىلھام. تەسەۋۋۇر بىلەن ياسالدى.</p><div><a href="https://github.com/UyghurCommunity" lang="en" target="_blank" rel="noreferrer">GitHub ↗</a><a href="../LICENSE" lang="en">MIT</a><a href="#top">يۇقىرىغا ↑</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite" data-swarm-skip></div>
+  <script src="heritage.js"></script>
+  <script src="page.js"></script>
+</body>
+</html>
