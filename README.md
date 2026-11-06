@@ -2,7 +2,7 @@
 
 [تور بەت / Live site](https://uyghurcommunity.github.io/doppa/) · [UyghurCommunity](https://github.com/UyghurCommunity) · [Developer hub](https://uyghurcommunity.github.io/)
 
-ئۇيغۇر دوپپا كەشتىسى ۋە ئەتلەس رەڭلىرىدىن ئىلھاملانغان جانلىق تور بەت. تەسەۋۋۇر خەت نۇسخىسى ۋە ئوڭدىن سولغا ماسلاشقان كۆرۈنمە يۈز بىلەن ياسالغان.
+ئۇيغۇر دوپپا كەشتىسى ۋە ئەتلەس رەڭلىرىدىن ئىلھاملانغان جانلىق تور بەت. ALKATIP Basma خەت نۇسخىسى ۋە ئوڭدىن سولغا ماسلاشقان كۆرۈنمە يۈز بىلەن ياسالغان.
 
 Doppa is an interactive Uyghur cultural website with an original digital embroidery sculpture and configurable page-building animations. It has no build step or external JavaScript dependencies.
 
@@ -10,7 +10,7 @@ Doppa is an interactive Uyghur cultural website with an original digital embroid
 
 - Drag or use the arrow keys to rotate the doppa-inspired sculpture.
 - Badam, atlas and golden palettes, pause/resume and reset.
-- Uyghur interface, Tesewwur font, RTL layout, responsive navigation and light/dark themes.
+- Uyghur interface, ALKATIP Basma web font, RTL layout, responsive navigation and light/dark themes.
 - Configurable cursor count, speed, tour, presets and saved preferences.
 - Live build progress, generated HTML/JavaScript, copy and download.
 - Reduced-motion support, keyboard navigation and skip controls.
@@ -72,7 +72,7 @@ git push origin main
 
 ## License and attribution
 
-Code: [MIT](LICENSE). Inherited software notices are preserved in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The supplied Tesewwur font is a separate asset and is not covered by that code license.
+Code: [MIT](LICENSE). Inherited software notices are preserved in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). The interface loads ALKATIP Basma from the owner's supplied OnlineWebFonts URLs with `font-display: swap`; the font is separate from the code license and is not bundled in package archives. The previously supplied Tesewwur asset remains in the repository but is no longer used by the interface.
 
 ## Cultural design
 

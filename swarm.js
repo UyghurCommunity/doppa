@@ -45,6 +45,15 @@
   const graphemes = typeof Intl !== 'undefined' && Intl.Segmenter ? new Intl.Segmenter(undefined, { granularity: 'grapheme' }) : null;
 
   const CSS = `
+  @font-face {
+    font-family: "ALKATIP Basma";
+    src: url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.woff2") format("woff2"),
+         url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.woff") format("woff"),
+         url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
   html.sw-boot body { opacity: 0 !important; }
   .sw-nopaint { background: transparent !important; background-image: none !important; border-color: transparent !important; box-shadow: none !important; }
   .sw-hide { opacity: 0 !important; }
@@ -73,7 +82,8 @@
   .sw-bar { position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 2147483001; display: flex; align-items: center; gap: 10px; max-width: calc(100vw - 32px); padding: 7px 8px 7px 12px; border: 1px solid rgba(255,255,255,.12); border-radius: 12px; background: rgba(20,21,26,.92); color: #e9e9ec; box-shadow: 0 8px 30px rgba(0,0,0,.4); font: 500 12px/1 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; white-space: nowrap; transition: opacity .3s; }
   .sw-bar.sw-out { opacity: 0; pointer-events: none; }
   .sw-bar, .sw-replay { font-family: inherit; }
-  .sw-bar[lang=ug], .sw-replay[lang=ug] { font-family: inherit; font-size: 15px; }
+  .sw-bar[lang=ug], .sw-replay[lang=ug] { font-family: "ALKATIP Basma", serif; font-size: 15px; }
+  .sw-bar[lang=ug] { line-height: 2.2; }
   .sw-bar[dir=rtl] .sw-track i { transform-origin: right; }
   .sw-dots { display: flex; }
   .sw-dots i { width: 11px; height: 11px; margin-left: -3px; border-radius: 50%; border: 1.5px solid #14151a; }

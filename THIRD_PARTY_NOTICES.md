@@ -34,4 +34,6 @@ The Doppa digital sculpture, cultural pattern compositions, bilingual presentati
 
 ## Font
 
+The interface uses ALKATIP Basma through the project owner's supplied `@font-face` URLs at `https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7` (WOFF2, WOFF and TrueType). These are external font resources, separate from the MIT code license. No ALKATIP font binaries are bundled in this repository or the npm package archives.
+
 `Uyghur tesewwur.ttf` was supplied by the project owner. It is a separate asset; no font license was supplied. It is not included in Doppa Kit or the other npm package archives.

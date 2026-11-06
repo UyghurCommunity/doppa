@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "ALKATIP Basma";
+  src: url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/3c16518f40da2fc2901f37666c0556a7.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.alkatip-basma {
+  font-family: "ALKATIP Basma", serif;
+  direction: rtl;
+  unicode-bidi: embed;
+  line-height: 2.2;
+}
